@@ -1,0 +1,415 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+.content-principal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 8rem;
+}
+
+.bts{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.nav a{
+    color: #0a0a0a;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    transition-duration: 0.4s;
+}
+
+.nav a:hover{
+    color: #053292;
+    text-decoration: underline;
+}
+
+#divul{
+    color: #053292;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+}
+
+.img-logo > img{
+    width: 110px;
+}
+
+
+/*ladding page*/
+
+#ladding-page{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 15vh;
+    padding-bottom: 15vh;
+    background-image: linear-gradient(to right, blue 30%,rgb(0, 195, 255));
+    position: relative;
+}
+
+#ladding-page-perfil img{
+    width: 280px;
+}
+
+#ladding-page-perfil h2{
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+}
+
+#h2-name-ladding{
+    font-size: 1.2em;
+}
+
+#name-foto-terapeuta{
+    letter-spacing: 1px;
+    font-size: 1.9em;
+}
+
+#representante{
+    position: absolute;
+    left: 20px;
+    bottom: -14px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+#representante p{
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    font-size: 0.8em;
+    margin-top: 13px;
+    text-decoration: underline;
+    text-decoration-color: #e0e0e0;
+    font-weight: 600;
+}
+
+#logo-branco{
+    width: 100px;
+}
+
+#h1-ladding h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2.16em;
+    color: aliceblue;
+}
+
+#butt{
+    margin-top: 12px;
+}
+
+#butt button{
+    background-color: rgba(255, 255, 255, 0.226);
+    border-radius: 5px;
+    border: none;
+    padding: 8px;
+}
+
+#butt button a{
+    color: white;
+    font-size: 1em;
+    padding: 52px;
+    text-decoration: none;
+    transition-duration:0.2s;
+}
+
+#butt button a:hover{
+    padding: 80px;
+    transform: scale(1.2);
+    color: #1de902;
+}
+
+#insta i{
+    color: rgb(195, 0, 212);
+}
+
+#zap i{
+    color: rgb(16, 226, 16);
+}
+
+/*ladding page - fim*/
+
+/*produtos*/
+
+#produtos{
+    margin-left: 70px;
+    margin-right: 70px;
+    background-image: linear-gradient(to right, #ffffff 40%, #f5f5f5b7);
+}
+
+.suplementos{
+    display: flex;
+    align-items: center;
+    margin: 5vh;
+}
+
+.suplementos h1{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #2E426F;
+}
+
+.suplementos p{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #7a7a7a;
+    line-height: 24px;
+    text-align: justify;
+    text-indent: 15px;
+}
+
+.suplementos img{
+    width: 300px;
+}
+
+#bt-flutuante{
+    z-index: 9999;
+    position: fixed;
+    right: 18px;
+    bottom: 40px;
+    width: 50px;
+    height: 50px;
+    padding: 12px;
+    background-color: #ffffff;
+    box-shadow: 2px 3px 28px #bdbdbd;
+    border-radius: 50%;
+    text-decoration: none;
+    transition-duration: 0.2s;
+}
+
+#bt-flutuante i{
+    color: #5ddf5f;
+    padding-top: 12px;
+    transition-duration: 0.2s;
+}
+
+#bt-flutuante:hover{
+    background-color: #5ddf5f;
+    box-shadow: 2px 3px 28px #5ddf5f;
+}
+
+#bt-flutuante i:hover{
+    color: #ffffff;
+}
+
+/* produtos-fim */
+
+#psicoterapeuta{
+    margin-left: 70px;
+    margin-right: 70px;
+    padding: 30px;
+    background-image: linear-gradient(to right, #ffffff 40%, #f5f5f5b7);
+}
+
+#psicoterapeuta h1,p{
+    font-family: "Roboto", sans-serif;
+}
+
+#psicoterapeuta h1{
+    color: #2E426F;
+    font-weight: 400;
+}
+
+#psicoterapeuta p{
+    margin-top: 10px;
+    color: #7a7a7a;
+    text-align: justify;
+    line-height: 1.5em;
+}
+
+#psicoterapeuta p a{
+    color: #2E426F;
+}
+
+/* footer */
+
+#footer-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 12px;
+    background-color: #15264d;
+    font-family: "Roboto", sans-serif;
+}
+
+#footer-content h1{
+    margin-top: 15px;
+    font-size: 1.4em;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+#footer-content p{
+    color: #bdbdbd;
+    margin-bottom: 12px;
+}
+
+#contatos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00236e;
+    border-radius: 8px;
+}
+
+#contatos i{
+    color: #ffffff;
+    font-size: 1.4em;
+    padding: 10px;
+}
+
+#contatos i:hover{
+    color: #00e97c;
+}
+
+
+/* responsivo */
+
+
+@media(max-width: 780px){
+    .bts{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .img-logo img{
+        width: 50px;
+    }
+
+    .nav a{
+        font-size: 0.7em;
+        letter-spacing: 1px;
+    }
+
+    #produtos{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    #psicoterapeuta{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    #ladding-page-perfil img{
+        width: 200px;
+        margin-top: 25px;
+    }
+
+    #h1-ladding h1{
+        font-size: 1.6em;
+    }
+
+    #butt button a{
+        color: white;
+        font-size: 1em;
+        padding: 24px;
+    }
+
+    #ladding-page{
+        flex-direction: column;
+    }
+
+    #bt-flutuante{
+        position: fixed;
+        bottom: 25px;
+    }
+
+    #butt button{
+        background-color: rgba(255, 255, 255, 0.288);
+        border-radius: 5px;
+        border: none;
+        padding: 8px;
+    }
+    
+    #representante{
+        position: absolute;
+        left: 10px;
+        bottom: -10px;
+    }
+
+}
+
+@media(max-width: 860px){
+
+    #ladding-page-perfil img{
+        width: 240px;
+        margin-top: 25px;
+    }
+
+    #logo-branco{
+        width: 100px;
+    }
+
+    #h2-name-ladding{
+        margin-top: 12px;
+        font-size: 1.2em;
+    }
+
+    
+}
+
+@media(max-width: 912px) {
+
+    .content-principal{
+        display: flex;
+        justify-content: space-around;
+        margin: 10px 1rem;
+    }
+
+    .suplementos{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #divul{
+        display: none;
+    }
+
+}
+
+@media(max-width: 980px) {
+
+    #butt button a:hover{
+        padding: 32px;
+        font-size: 1.1em;
+    }
+
+    #ladding-page-perfil img{
+        width: 220px;
+    }
+
+    #name-foto-terapeuta{
+        font-size: 1.7em;
+    }
+}
+
+@media(max-width: 1028px){
+    .content-principal{
+        display: flex;
+        justify-content: space-around;
+        margin: 10px 0.2rem;
+    }
+
+    #ladding-page-perfil img{
+        width: 240px;
+        margin-top: 25px;
+    }
+
+}
